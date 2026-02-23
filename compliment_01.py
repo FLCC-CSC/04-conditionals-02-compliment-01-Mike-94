@@ -1,8 +1,9 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Michael Reed
+# DATE: 2/22/2026
+# BRIEF DESCRIPTION: the user is prompted whether they want a compliment or not. If they choose "yes", then a compliment is given.
+  
 
 
 
@@ -15,14 +16,11 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
-
-
-
-
-
-
-
+compliment = input("Would you like a compliment? ")
+if compliment == "yes":
+    print("You have wonderful eyes.\nThank you for playing.")
+else:
+    print("Thank you for playing.")
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -66,12 +64,12 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+ I would rate this lab a 2 out of 10 for difficulty.
 
 
 
 2. What was the hardest part of this lab?
-
+The hardest part of this lab for me was remembering I do not need to separate print commands, I can just use "/n"!
 
 
 
